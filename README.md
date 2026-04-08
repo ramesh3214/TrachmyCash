@@ -1,102 +1,110 @@
 # TrackMyCash
 
-A modern React Native (Expo) app to track expenses, income, and visualize financial data beautifully.
+A modern React Native (Expo) app to track expenses, manage income, and visualize financial data with a clean and intuitive interface.
 
 ---
 
 ## Overview
-TrackMyCash helps users manage daily transactions, monitor income vs expenses, and visualize financial data with charts. It also supports light and dark themes for a better user experience.
+
+TrackMyCash helps users:
+- Manage daily transactions  
+- Monitor income vs expenses  
+- Visualize financial data using charts  
+- Use light and dark modes for better experience  
 
 ---
 
 ## Features
-- Add transactions  
+
+- Add and manage transactions  
 - Real-time balance tracking  
 - Donut chart (Income vs Expense)  
 - Weekly spending analytics  
-- Dark / Light mode support  
+- Dark and Light mode support  
 - Smooth navigation with gestures  
 
 ---
 
-## Demo(APK)
-link:(https://drive.google.com/file/d/1gCoz_cFCoE91na0b3Z4iz1JnA_WpGbNB/view?usp=sharing)
+## Demo (APK)
 
----------
+Watch the demo video:  
+https://drive.google.com/file/d/1gCoz_cFCoE91na0b3Z4iz1JnA_WpGbNB/view?usp=sharing
+
+---
+
 ## Tech Stack
-- React Native (Expo)
-- React Navigation (Native Stack)
-- Context API
-- SVG Charts
+
+- React Native (Expo)  
+- React Navigation (Native Stack)  
+- Context API  
+- SVG Charts  
 
 ---
 
 ## Prerequisites
-- Node.js (16+ recommended)
-- npm / yarn
-- Expo Go app
+
+- Node.js (v16 or higher)  
+- npm or yarn  
+- Expo Go app  
 
 ---
 
-## Setup
+## Installation & Setup
 
 ### Clone the repository
 git clone https://github.com/ramesh3214/TrachmyCash.git
 
-### Navigate to project
+### Navigate to the project
 cd TrachmyCash
 
-Install dependencies:
-```bash
+### Install dependencies
 npm install
-```
 
-Install required Expo packages:
-```bash
+### Install Expo dependencies
 npx expo install
-```
 
 ---
 
-## Run App
-```bash
+## Run the App
+
 npx expo start
-```
-Scan QR using Expo Go
+
+- Scan the QR code using Expo Go  
+- Or run on an emulator  
 
 ---
 
-##  Run on Android Emulator
-```bash
+## Run on Android Emulator
+
 npx expo start
-```
 
-
----
-
-## Build APK
-```bash
-npm install -g eas-cli
-eas login
-eas build:configure
-eas build -p android --profile preview
-```
+Then press:
+a
 
 ---
 
+## Build APK (EAS)
 
-## Project Structur
-Component/
- ├── Addtransection/
- ├── Contextapi/
- ├── Home/
- ├── Navigationbutton/
- ├── SummaryPage/
+npm install -g eas-cli  
+eas login  
+eas build:configure  
+eas build -p android --profile preview  
+
+---
+
+## Project Structure
+
+components/
+├── AddTransaction/  
+├── ContextAPI/  
+├── Home/  
+├── NavigationButton/  
+├── SummaryPage/  
+
 ---
 
 ## Useful Commands
-```bash
-npx expo start -c
-npx expo-doctor
-eas build -p android
-```
+
+npx expo start -c  
+npx expo-doctor  
+eas build -p android  
