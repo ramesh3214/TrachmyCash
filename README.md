@@ -39,6 +39,13 @@ link:(https://drive.google.com/file/d/1gCoz_cFCoE91na0b3Z4iz1JnA_WpGbNB/view?usp
 ---
 
 ## Setup
+
+### Clone the repository
+git clone https://github.com/ramesh3214/TrachmyCash.git
+
+### Navigate to project
+cd TrachmyCash
+
 Install dependencies:
 ```bash
 npm install
